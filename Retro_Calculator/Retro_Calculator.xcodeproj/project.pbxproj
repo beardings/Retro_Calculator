@@ -12,6 +12,7 @@
 		23F8413B1F4E1B3D0009721A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F841391F4E1B3D0009721A /* Main.storyboard */; };
 		23F8413D1F4E1B3D0009721A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23F8413C1F4E1B3D0009721A /* Assets.xcassets */; };
 		23F841401F4E1B3D0009721A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F8413E1F4E1B3D0009721A /* LaunchScreen.storyboard */; };
+		23F841481F4E30D00009721A /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23F841471F4E30560009721A /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		23F8413C1F4E1B3D0009721A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23F8413F1F4E1B3D0009721A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23F841411F4E1B3D0009721A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23F841471F4E30560009721A /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		23F841341F4E1B3D0009721A /* Retro_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				23F841471F4E30560009721A /* Minecraft.ttf */,
 				23F841351F4E1B3D0009721A /* AppDelegate.swift */,
 				23F841371F4E1B3D0009721A /* ViewController.swift */,
 				23F841391F4E1B3D0009721A /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F841481F4E30D00009721A /* Minecraft.ttf in Resources */,
 				23F841401F4E1B3D0009721A /* LaunchScreen.storyboard in Resources */,
 				23F8413D1F4E1B3D0009721A /* Assets.xcassets in Resources */,
 				23F8413B1F4E1B3D0009721A /* Main.storyboard in Resources */,
