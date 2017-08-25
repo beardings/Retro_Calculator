@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		238C39E61F50C176001C9D88 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 238C39E51F50BCBB001C9D88 /* btn.wav */; };
 		23F841361F4E1B3D0009721A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F841351F4E1B3D0009721A /* AppDelegate.swift */; };
 		23F841381F4E1B3D0009721A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F841371F4E1B3D0009721A /* ViewController.swift */; };
 		23F8413B1F4E1B3D0009721A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23F841391F4E1B3D0009721A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		238C39E51F50BCBB001C9D88 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 		23F841321F4E1B3D0009721A /* Retro_Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retro_Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23F841351F4E1B3D0009721A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23F841371F4E1B3D0009721A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		23F841341F4E1B3D0009721A /* Retro_Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				238C39E51F50BCBB001C9D88 /* btn.wav */,
 				23F841471F4E30560009721A /* Minecraft.ttf */,
 				23F841351F4E1B3D0009721A /* AppDelegate.swift */,
 				23F841371F4E1B3D0009721A /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238C39E61F50C176001C9D88 /* btn.wav in Resources */,
 				23F841481F4E30D00009721A /* Minecraft.ttf in Resources */,
 				23F841401F4E1B3D0009721A /* LaunchScreen.storyboard in Resources */,
 				23F8413D1F4E1B3D0009721A /* Assets.xcassets in Resources */,
