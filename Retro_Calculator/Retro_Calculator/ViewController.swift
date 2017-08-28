@@ -12,6 +12,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var outputLbl: UILabel!
+    @IBOutlet weak var clearButton: UIButton!
     
     var btnSound: AVAudioPlayer!
     
@@ -111,6 +112,17 @@ class ViewController: UIViewController {
             runningNumber = ""
             currentOperation = operation
         }
+    }
+    
+    // очищаем поле вывода
+    @IBAction func clearButtonPressed(_ sender: Any) {
+        playSound()
+        outputLbl.text = "0"
+        currentOperation = Operation.Empty
+        runningNumber = ""
+        leftVaStr = ""
+        rightVaStr = ""
+        result = ""
     }
 }
 
